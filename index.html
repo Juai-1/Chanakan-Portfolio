@@ -53,11 +53,11 @@
         "socials": [
             {
                 "label": "YouTube",
-                "url": "https://youtube.com/@yourchannel"
+                "url": "https://youtube.com/@sxmejuai985?si=5nXFCRUVjvtcX9wL"
             },
             {
                 "label": "TikTok",
-                "url": "https://tiktok.com/@yourhandle"
+                "url": "https://www.tiktok.com/@sxmejuai?_r=1&_t=ZS-95mjD7nedBI"
             },
             {
                 "label": "facebook",
@@ -145,7 +145,7 @@
                         <span class="contact-icon" aria-hidden="true">✉</span>
                         <span id="about-email-text">sxmejuai@gmail.com</span>
                     </a>
-                    <div class="social-row" id="about-socials"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer" class="social-btn">YouTube</a><a href="https://tiktok.com/@yourhandle" target="_blank" rel="noopener noreferrer" class="social-btn">TikTok</a><a href="https://web.facebook.com/xi.m.w.pxb.ce?rdid=Qrmq2h4mB4b60gip&amp;share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1J9kmign7Q%2F%3F_rdc%3D1%26_rdr#" target="_blank" rel="noopener noreferrer" class="social-btn">facebook</a></div>
+                    <div class="social-row" id="about-socials"><a href="https://youtube.com/@sxmejuai985?si=5nXFCRUVjvtcX9wL" target="_blank" rel="noopener noreferrer" class="social-btn">YouTube</a><a href="https://www.tiktok.com/@sxmejuai?_r=1&amp;_t=ZS-95mjD7nedBI" target="_blank" rel="noopener noreferrer" class="social-btn">TikTok</a><a href="https://web.facebook.com/xi.m.w.pxb.ce?rdid=Qrmq2h4mB4b60gip&amp;share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1J9kmign7Q%2F%3F_rdc%3D1%26_rdr#" target="_blank" rel="noopener noreferrer" class="social-btn">facebook</a></div>
                 </div>
             </div>
             <div class="about-right">
@@ -207,15 +207,15 @@
         </div>
         <div style="padding:24px;">
             <div class="admin-tabs" style="flex-wrap:wrap;">
-                <button class="atab active" onclick="adminTab(this,'tab-site')">🌐 Site</button>
+                <button class="atab" onclick="adminTab(this,'tab-site')">🌐 Site</button>
                 <button class="atab" onclick="adminTab(this,'tab-reel')">🎬 Reel</button>
-                <button class="atab" onclick="adminTab(this,'tab-about')">👤 About</button>
+                <button class="atab active" onclick="adminTab(this,'tab-about')">👤 About</button>
                 <button class="atab" onclick="adminTab(this,'tab-port')">📁 Portfolio</button>
                 <button class="atab" onclick="adminTab(this,'tab-theme')">🌈 Theme</button>
             </div>
 
             <!-- SITE -->
-            <div id="tab-site" class="admin-tab-content" style="display: block;">
+            <div id="tab-site" class="admin-tab-content" style="display: none;">
                 <p class="admin-section-title">ข้อมูลเว็บไซต์</p>
                 <div class="admin-field"><label>ชื่อ (EN)</label><input type="text" id="f-site-title"></div>
                 <div class="admin-field"><label>Subtitle</label><input type="text" id="f-site-subtitle"></div>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="admin-row-btn" style="margin-top:16px;">
                     <button class="admin-primary-btn" onclick="applySection('site')">บันทึก</button>
-                    <span id="msg-site" class="admin-success" style="color: rgb(200, 242, 80);">✓ บันทึกแล้ว</span>
+                    <span id="msg-site" class="admin-success" style="color: rgb(200, 242, 80);"></span>
                 </div>
             </div>
 
@@ -288,7 +288,7 @@
             </div>
 
             <!-- ABOUT -->
-            <div id="tab-about" class="admin-tab-content" style="display: none;">
+            <div id="tab-about" class="admin-tab-content" style="display: block;">
                 <p class="admin-section-title">About Me</p>
                 <div class="admin-field"><label>ชื่อ (แสดงในหน้า About)</label><input type="text" id="f-about-nameth"></div>
                 <div class="admin-field">
@@ -318,7 +318,7 @@
                 <button class="abtn" style="margin-top:8px;width:100%;font-size:0.8rem;height:auto;padding:8px;" onclick="addSocial()">+ เพิ่ม Social</button>
                 <div class="admin-row-btn" style="margin-top:16px;">
                     <button class="admin-primary-btn" onclick="applySection('about')">บันทึก</button>
-                    <span id="msg-about" class="admin-success" style="color: rgb(200, 242, 80);"></span>
+                    <span id="msg-about" class="admin-success" style="color: rgb(200, 242, 80);">✓ บันทึกแล้ว</span>
                 </div>
             </div>
 
@@ -404,7 +404,7 @@
                 <p class="export-title">📥 Export &amp; Deploy</p>
                 <p class="admin-hint">กด Export → ดาวน์โหลด <code>index.html</code> ไฟล์เดียว<br>รูปทั้งหมดฝังอยู่ในไฟล์แล้ว — ดับเบิ้ลคลิกเปิดได้ทันที ✓</p>
                 <button class="export-btn" onclick="exportHTML()">↓ Export index.html</button>
-                <p id="export-msg" class="admin-success" style="margin-top:10px;font-size:0.8rem;line-height:1.5;"></p>
+                <p id="export-msg" class="admin-success" style="margin-top: 10px; font-size: 0.8rem; line-height: 1.5; color: rgb(200, 242, 80);">✓ index.html ดาวน์โหลดแล้ว — รูปทั้งหมดฝังอยู่แล้ว</p>
             </div>
         </div>
     </div>
